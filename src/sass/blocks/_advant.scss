@@ -1,0 +1,66 @@
+.advant{
+    min-height: 473px;
+    color: $text-color-second;
+    padding: 70px 0 65px;
+    text-align: center;
+    background-color: $backgr-white;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 32px;
+    }
+    &__block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 277px;
+    }
+    &__icon{
+        padding-bottom: 35px;
+        display: flex;
+        padding-top: 0px;
+        &_1:before{
+            content:' ';
+            display: block;
+            width: 70px;
+            height: 70px;
+            background: url('../../icons/advant_icon_cup.svg') center no-repeat;
+          
+        }
+        &_2:before{
+            content:' ';
+            display: block;
+            width: 70px;
+            height: 70px;
+            background: url('../../icons/advant_icon_heart.svg') center no-repeat;
+          
+        }
+        &_3:before{
+            content:' ';
+            display: block;
+            width: 70px;
+            height: 70px;
+            background: url('../../icons/advant_icon_shoe.svg') center no-repeat;         
+            
+        }
+        &_animated{
+            animation: pulse 3s ease 0.5s infinite;
+
+        }
+    }
+    &__subtitle{
+        font-weight: 700;
+        font-size: 18px;
+        display: block;
+    }
+    &__text{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 20px;
+        &_link a{
+            color: $block-color;
+        }
+    }
+}

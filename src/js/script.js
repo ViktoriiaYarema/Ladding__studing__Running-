@@ -2,8 +2,8 @@ $(document).ready(function(){
     $('.slider__block').slick({
         speed: 1200,
         // adaptiveHeight: false,
-        prevArrow: '<button type="button" class="prev"><img src="../img/arrow-left-solid.svg" alt="arrow"></img></button>',
-        nextArrow: '<button type="button" class="next"><img src="../img/arrow-right-solid.svg" alt="arrow"></img></button>',
+        prevArrow: '<button type="button" class="prev"><img src="img/arrow-left-solid.svg" alt="arrow"></img></button>',
+        nextArrow: '<button type="button" class="next"><img src="img/arrow-right-solid.svg" alt="arrow"></img></button>',
         responsive: [
             {
                 breakpoint: 992,

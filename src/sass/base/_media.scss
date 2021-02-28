@@ -352,13 +352,14 @@
 
         }
         &__icons{
-            font-size: 13px;
-            width: 62%;
+            font-size: 0.8rem;
+            width: 76%;
 
         }
         &_icon img{
             width: 33px;
             height: 39px;
+           
            
         }
         &__link{
@@ -457,6 +458,12 @@
     .button_mini{
         width: 50%;
     }
+    .button_consult{
+        width: 76%;
+    }
+    .button_call{
+        font-size: 0.8em;
+    }
 
 }
 
@@ -465,7 +472,7 @@
     .promo{
         &__icons{
             margin-top: 45px;
-            font-size: 13px;
+            font-size: 0.8em;
             width: 92%;
 
         }
@@ -593,6 +600,7 @@
     .advant .title, .title{
         font-size: 20px;
     }
+    
     
    
 }
